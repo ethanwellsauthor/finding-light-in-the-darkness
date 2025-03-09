@@ -3,51 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethan Wells - Author</title>
+    <title>Ethan Wells - Finding Light in the Darkness</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
             background-color: #f4f4f4;
-            text-align: center;
+            color: #333;
+            padding: 0;
+            margin: 0;
         }
         header {
-            background-color: #333;
+            background-color: #2c3e50;
             color: white;
-            padding: 10px;
+            padding: 1.5rem;
+            text-align: center;
         }
         h1 {
-            margin: 0;
-            font-size: 2em;
+            font-size: 2.5rem;
+            font-weight: 700;
         }
         h2 {
-            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
             background: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
         img {
             max-width: 100%;
             height: auto;
-            margin: 20px 0;
+            display: block;
+            margin: 1.5rem auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+        li {
+            margin-bottom: 0.5rem;
         }
         a {
-            color: #0066cc;
+            color: #2980b9;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         a:hover {
+            color: #e74c3c;
             text-decoration: underline;
         }
         footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #666;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #777;
+            background-color: #ecf0f1;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .container {
+                margin: 0.5rem;
+                padding: 1rem;
+            }
+            img {
+                margin: 1rem auto;
+            }
         }
     </style>
 </head>
@@ -57,39 +121,31 @@
     </header>
     <div class="container">
         <h2>Finding Light in the Darkness: A Guide to Navigating Negative Emotions</h2>
-        <img src="book-cover-finding-light" alt="Book Cover">
+        <img src="book-cover-finding-light.jpg" alt="Book Cover">
         <p><strong>About the Book:</strong><br>
-		<b>"What if one simple question could change the way you think, feel, and live?</b>
-		<br>
-		In Finding Light in the Darkness: A Guide to Navigating Negative Emotions, Ethan Wells takes you on a transformative journey from the suffocating grip of self-doubt to the liberating power of emotional clarity. Drawing from years of personal struggle, scientific research, and practical experimentation, this book reveals how small, consistent actions can rewire your mind and reshape your life.
-		<br>
-		You’ll discover how to:
-		<ul>
-			<li>Recognize the hidden patterns of negativity that hold you back.</li>
-			<li>Shift your emotional state in real-time, even in the chaos of daily life.</li>
-			<li>Build resilience through simple, actionable techniques that stick.</li>
-		</ul>
-		<br>
-		This isn’t about toxic positivity or denying life’s challenges—it’s about reclaiming your energy, your focus, and your joy. Whether you’re stuck in the ‘gray zone’ of functioning but not thriving, or simply seeking a deeper sense of peace, this book offers a roadmap to a brighter, more balanced way of living.
-		<br>
-		Turn the page. Your journey to emotional freedom starts here
-
-	</p>
-        
+            <b>"What if one simple question could change the way you think, feel, and live?</b><br>
+            In <em>Finding Light in the Darkness: A Guide to Navigating Negative Emotions</em>, Ethan Wells takes you on a transformative journey from the suffocating grip of self-doubt to the liberating power of emotional clarity. Drawing from years of personal struggle, scientific research, and practical experimentation, this book reveals how small, consistent actions can rewire your mind and reshape your life.<br>
+            You’ll discover how to:
+            <ul>
+                <li>Recognize the hidden patterns of negativity that hold you back.</li>
+                <li>Shift your emotional state in real-time, even in the chaos of daily life.</li>
+                <li>Build resilience through simple, actionable techniques that stick.</li>
+            </ul>
+            This isn’t about toxic positivity or denying life’s challenges—it’s about reclaiming your energy, your focus, and your joy. Whether you’re stuck in the ‘gray zone’ of functioning but not thriving, or simply seeking a deeper sense of peace, this book offers a roadmap to a brighter, more balanced way of living.<br>
+            Turn the page. Your journey to emotional freedom starts here.
+        </p>
         <p><strong>About the Author:</strong><br>
-        Ethan Wells is a writer, thinker, and advocate for emotional well-being, with a professional background in leadership and data-driven problem-solving. For close to two decades, he has worked at the intersection of technology and human systems, helping organizations navigate complexity and build resilience. But behind the success, Ethan struggled with the same challenges many of us face: self-doubt, negative thought patterns, and the weight of perfectionism.
-	<br>
-	His journey to overcome these challenges led him to explore the science of mindfulness, cognitive behavioral techniques, and habit formation. Through years of research, personal experimentation, and learning from others, Ethan discovered practical tools to break free from negativity and reclaim emotional balance. He wrote this book to share what he learned—not as a distant expert, but as someone who has walked the path himself.
-	<br>
-	Ethan holds advanced degrees in business and engineering, but his true passion lies in helping others find clarity and joy in their everyday lives. When he’s not writing, he enjoys hiking, exploring mindfulness practices, and spending time with his family in the Pacific Northwest.
-	<br>
-Ethan’s mission is simple: to offer readers actionable, evidence-based strategies to transform their relationship with negativity and build a life of purpose and resilience.</p>
-        
+            Ethan Wells is a writer, thinker, and advocate for emotional well-being, with a professional background in leadership and data-driven problem-solving. For close to two decades, he has worked at the intersection of technology and human systems, helping organizations navigate complexity and build resilience. But behind the success, Ethan struggled with the same challenges many of us face: self-doubt, negative thought patterns, and the weight of perfectionism.<br>
+            His journey to overcome these challenges led him to explore the science of mindfulness, cognitive behavioral techniques, and habit formation. Through years of research, personal experimentation, and learning from others, Ethan discovered practical tools to break free from negativity and reclaim emotional balance. He wrote this book to share what he learned—not as a distant expert, but as someone who has walked the path himself.<br>
+            Ethan holds advanced degrees in business and engineering, but his true passion lies in helping others find clarity and joy in their everyday lives. When he’s not writing, he enjoys hiking, exploring mindfulness practices, and spending time with his family in the Pacific Northwest.<br>
+            Ethan’s mission is simple: to offer readers actionable, evidence-based strategies to transform their relationship with negativity and build a life of purpose and resilience.
+        </p>
         <p><strong>Get the Book:</strong><br>
-        Available soon! Check back for purchase links or <a href="mailto:ethanwellsauthor82@gmail.com">contact Ethan</a> for updates.</p>
+            Available soon! Check back for purchase links or <a href="mailto:ethanwellsauthor82@gmail.com">contact Ethan</a> for updates.
+        </p>
     </div>
     <footer>
-        &copy; 2025 Ethan Wells. All rights reserved.
+        © 2025 Ethan Wells. All rights reserved.
     </footer>
 </body>
 </html>
